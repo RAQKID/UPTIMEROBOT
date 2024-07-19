@@ -25,7 +25,7 @@ module.exports = {
       .setDescription(contents)
       .setColor("RANDOM")
       .setFooter(`Prefix: "${default_prefix}"`)
-      .setThumbnail(client.user.displayAvatarURL();
+      .setThumbnail(client.user.displayAvatarURL())
       .setTimestamp();
 
     return message.channel.send(embed);
