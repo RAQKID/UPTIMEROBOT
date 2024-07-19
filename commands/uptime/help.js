@@ -25,15 +25,7 @@ module.exports = {
       .setDescription(contents)
       .setColor("RANDOM")
       .setFooter(`Prefix: "${default_prefix}"`)
-      .setThumbnail(client.user.displayAvatarURL())
-      .addField(
-        "How to use?",
-        "[Click here](" + how_to + ") to read the Documentation."
-      )
-      .addField(
-        "Github Repository",
-        `[Click here](${github_repo}) to go to the Repository.`
-      )
+      .setThumbnail(client.user.displayAvatarURL();
       .setTimestamp();
 
     return message.channel.send(embed);
